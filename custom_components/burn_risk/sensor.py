@@ -6,7 +6,6 @@ from dataclasses import dataclass
 from homeassistant.components.sensor import (
     SensorEntity,
     SensorEntityDescription,
-    SensorStateClass,
 )
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
@@ -27,7 +26,6 @@ SENSORS = (
         key="level",
         name="Level",
         icon="mdi:fire-alert",
-        state_class=SensorStateClass.MEASUREMENT,
     ),
     BurnRiskSensorDescription(
         key="status",
