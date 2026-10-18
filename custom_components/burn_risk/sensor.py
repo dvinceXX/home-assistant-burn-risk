@@ -13,7 +13,7 @@ from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
 from homeassistant.helpers.update_coordinator import CoordinatorEntity
 
-from . import BurnRiskCoordinator
+from .coordinator import BurnRiskCoordinator
 from .const import DOMAIN
 
 
