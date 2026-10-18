@@ -1,0 +1,11 @@
+{
+  "domain": "burn_risk",
+  "name": "Burn Risk",
+  "codeowners": ["@dvinceXX"],
+  "config_flow": true,
+  "documentation": "https://github.com/dvinceXX/home-assistant-burn-risk",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/dvinceXX/home-assistant-burn-risk/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
