@@ -1,0 +1,19 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Burn Risk",
+        "description": "Monitor the current burn-risk status.",
+        "data": {
+          "url": "Status page URL"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Enter a valid HTTP or HTTPS URL."
+    },
+    "abort": {
+      "already_configured": "This status page is already configured."
+    }
+  }
+}
