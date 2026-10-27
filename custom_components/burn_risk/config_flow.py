@@ -1,4 +1,4 @@
-"""Config flow for Burn Risk."""
+"""Config flow for Mississippi Mills Burn Risk."""
 from __future__ import annotations
 
 from urllib.parse import urlparse
@@ -33,7 +33,7 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             else:
                 await self.async_set_unique_id(url.lower())
                 self._abort_if_unique_id_configured()
-                return self.async_create_entry(title="Burn Risk", data={"url": url})
+                return self.async_create_entry(title="Mississippi Mills Burn Risk", data={"url": url})
 
         schema = vol.Schema({vol.Required("url", default=DEFAULT_URL): str})
         return self.async_show_form(
