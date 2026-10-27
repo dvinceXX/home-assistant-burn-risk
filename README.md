@@ -1,6 +1,6 @@
-# Home Assistant Burn Risk
+# Home Assistant: Mississippi Mills Burn Risk
 
-A custom integration for Home Assistant that polls [mm.burnpermits.com](https://mm.burnpermits.com) and exposes the current burn-risk status as sensors.
+A custom Home Assistant integration for the **Mississippi Mills, Ontario area only at this time**. It polls [mm.burnpermits.com](https://mm.burnpermits.com) and exposes the current burn-risk status as sensors.
 
 The integration reads the numeric value field from the upstream page, matching the field used by the original shell script. It does not infer the current risk from words in the page legend.
 
@@ -32,8 +32,8 @@ Both sensors include the `stale` and `source` attributes. If a refresh fails aft
 1. In HACS, open **Integrations**.
 2. Open the three-dot menu and select **Custom repositories**.
 3. Add `https://github.com/dvinceXX/home-assistant-burn-risk` as an **Integration**.
-4. Install **Burn Risk** and restart Home Assistant.
-5. Go to **Settings → Devices & services → Add integration** and search for **Burn Risk**.
+4. Install **Mississippi Mills Burn Risk** and restart Home Assistant.
+5. Go to **Settings → Devices & services → Add integration** and search for **Mississippi Mills Burn Risk**.
 
 ### Manual
 
