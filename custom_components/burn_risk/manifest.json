@@ -1,6 +1,6 @@
 {
   "domain": "burn_risk",
-  "name": "Burn Risk",
+  "name": "Mississippi Mills Burn Risk",
   "codeowners": ["@dvinceXX"],
   "config_flow": true,
   "documentation": "https://github.com/dvinceXX/home-assistant-burn-risk",
