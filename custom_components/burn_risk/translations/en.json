@@ -2,8 +2,8 @@
   "config": {
     "step": {
       "user": {
-        "title": "Burn Risk",
-        "description": "Monitor the current burn-risk status.",
+        "title": "Mississippi Mills Burn Risk",
+        "description": "Monitor the current burn-risk status for Mississippi Mills, Ontario.",
         "data": {
           "url": "Status page URL"
         }
