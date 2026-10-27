@@ -25,12 +25,12 @@ SENSORS = (
     BurnRiskSensorDescription(
         key="level",
         name="Level",
-        icon="mdi:fire-alert",
+        icon="mdi:campfire",
     ),
     BurnRiskSensorDescription(
         key="status",
         name="Status",
-        icon="mdi:fire",
+        icon="mdi:campfire",
     ),
 )
 
